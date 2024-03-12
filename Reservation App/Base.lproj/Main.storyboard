@@ -82,6 +82,102 @@
                                     </tableViewCell>
                                 </cells>
                             </tableViewSection>
+                            <tableViewSection id="RPe-qk-XBr">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" textLabel="del-HY-dI0" detailTextLabel="sRf-el-zYs" style="IBUITableViewCellStyleValue1" id="7yP-FB-vAC">
+                                        <rect key="frame" x="0.0" y="180.33333587646487" width="393" height="43.666667938232422"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="7yP-FB-vAC" id="PLD-9U-Lwd">
+                                            <rect key="frame" x="0.0" y="0.0" width="393" height="43.666667938232422"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Check-In Date" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="del-HY-dI0">
+                                                    <rect key="frame" x="20" y="15" width="81" height="14.333333333333334"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="0.0"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Nov 23, 2024" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="sRf-el-zYs">
+                                                    <rect key="frame" x="296.33333333333331" y="15" width="76.666666666666671" height="14.333333333333334"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="0.0"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="200" id="xwc-z0-Z0Q">
+                                        <rect key="frame" x="0.0" y="224.00000381469727" width="393" height="200"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="xwc-z0-Z0Q" id="5Kd-OJ-jJi">
+                                            <rect key="frame" x="0.0" y="0.0" width="393" height="200"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="date" style="wheels" translatesAutoresizingMaskIntoConstraints="NO" id="qgx-Ac-Vf7">
+                                                    <rect key="frame" x="0.0" y="0.0" width="393" height="200"/>
+                                                    <connections>
+                                                        <action selector="datePickerValueChanged:" destination="2JC-ai-Up9" eventType="valueChanged" id="3LI-8D-y7k"/>
+                                                    </connections>
+                                                </datePicker>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="bottom" secondItem="qgx-Ac-Vf7" secondAttribute="bottom" id="53R-Gb-fDr"/>
+                                                <constraint firstItem="qgx-Ac-Vf7" firstAttribute="top" secondItem="5Kd-OJ-jJi" secondAttribute="top" id="6oT-VU-wio"/>
+                                                <constraint firstItem="qgx-Ac-Vf7" firstAttribute="leading" secondItem="5Kd-OJ-jJi" secondAttribute="leading" id="e5x-7F-SC9"/>
+                                                <constraint firstAttribute="trailing" secondItem="qgx-Ac-Vf7" secondAttribute="trailing" id="zf9-QE-5i9"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" textLabel="4fp-S8-gIJ" detailTextLabel="51y-T9-IP2" style="IBUITableViewCellStyleValue1" id="Bji-4a-Hl3">
+                                        <rect key="frame" x="0.0" y="424.00000381469727" width="393" height="43.666667938232422"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Bji-4a-Hl3" id="hAX-z9-cRH">
+                                            <rect key="frame" x="0.0" y="0.0" width="393" height="43.666667938232422"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Check-Out Date" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="4fp-S8-gIJ">
+                                                    <rect key="frame" x="19.999999999999993" y="15" width="91.333333333333329" height="14.333333333333334"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="0.0"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Nov 23, 2024" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="51y-T9-IP2">
+                                                    <rect key="frame" x="296.33333333333331" y="15" width="76.666666666666671" height="14.333333333333334"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="0.0"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="200" id="ro3-e6-cF0">
+                                        <rect key="frame" x="0.0" y="467.66667175292969" width="393" height="200"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="ro3-e6-cF0" id="mVN-2G-QAw">
+                                            <rect key="frame" x="0.0" y="0.0" width="393" height="200"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="date" style="wheels" translatesAutoresizingMaskIntoConstraints="NO" id="lAN-F0-adU">
+                                                    <rect key="frame" x="0.0" y="0.0" width="393" height="200"/>
+                                                    <connections>
+                                                        <action selector="datePickerValueChanged:" destination="2JC-ai-Up9" eventType="valueChanged" id="huf-e0-wq4"/>
+                                                    </connections>
+                                                </datePicker>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="bottom" secondItem="lAN-F0-adU" secondAttribute="bottom" id="NzS-9R-9dx"/>
+                                                <constraint firstItem="lAN-F0-adU" firstAttribute="leading" secondItem="mVN-2G-QAw" secondAttribute="leading" id="U6C-hh-UJc"/>
+                                                <constraint firstItem="lAN-F0-adU" firstAttribute="top" secondItem="mVN-2G-QAw" secondAttribute="top" id="Wui-jL-AQ3"/>
+                                                <constraint firstAttribute="trailing" secondItem="lAN-F0-adU" secondAttribute="trailing" id="fXn-HN-JCN"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
                         </sections>
                         <connections>
                             <outlet property="dataSource" destination="2JC-ai-Up9" id="YKG-gY-iRV"/>
@@ -89,10 +185,18 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="Add Guest Registration" id="1Fg-Dt-HgP">
-                        <barButtonItem key="rightBarButtonItem" style="done" systemItem="done" id="da4-cS-ohR"/>
+                        <barButtonItem key="rightBarButtonItem" style="done" systemItem="done" id="da4-cS-ohR">
+                            <connections>
+                                <action selector="doneButtonTapped:" destination="2JC-ai-Up9" id="hFz-VK-Oca"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                     <connections>
-                        <outlet property="emailNameTextField" destination="0g0-Xf-iyF" id="J7y-EQ-P5W"/>
+                        <outlet property="checkInDateLabel" destination="sRf-el-zYs" id="ko9-7v-7cI"/>
+                        <outlet property="checkInDatePicker" destination="qgx-Ac-Vf7" id="jRV-hn-CAg"/>
+                        <outlet property="checkOutDateLabel" destination="51y-T9-IP2" id="0LY-ym-9pg"/>
+                        <outlet property="checkOutDatePicker" destination="lAN-F0-adU" id="ffU-d9-ULW"/>
+                        <outlet property="emailTextField" destination="0g0-Xf-iyF" id="J7y-EQ-P5W"/>
                         <outlet property="firstNameTextField" destination="w2G-nN-g6s" id="EoX-fK-dhR"/>
                         <outlet property="lastNameTextField" destination="sl3-MB-grQ" id="5zK-qu-z6f"/>
                     </connections>
